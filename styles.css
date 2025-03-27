@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  table{
+    display: flex;
+    justify-content: center;
+    padding : 10px;
+  }
+  
+  tbody{
+    border: solid 1px black;
+  }
+  
+  td{
+    border: solid 1px black;
+    padding : 0 10px;
+  }
+  
+  .table > tbody{
+    border : none;
+  }
+  
+  .buscar_por_autor, .buscar_por_temas, .menu{
+    border:none;
+  }
+  
+  .temas-alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temas-hr {
+    width: 20%;
+  }
+  
+  .td-center {
+    text-align: center;
+  }
+  
+  

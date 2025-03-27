@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS php2;
+CREATE DATABASE IF NOT EXISTS php2_francho1106;
 
-USE php2;
+USE php2_francho1106;
 
 CREATE TABLE IF NOT EXISTS tema (
   id INT NOT NULL AUTO_INCREMENT,
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS respuesta (
 );
 
 INSERT INTO tema (titulo, contenido, autor , fecha, hora, categoria, pais)
-VALUES ('V.F. Corporation', 'Apparel', 'Johnna', '2024-01-30', '1:26:14', 'Deportes', 'Peru'),
+VALUES ('V.F. Corporation', 'todas', 'Johnna', '2024-01-30', '1:26:14', 'Deportes', 'Peru'),
 ('Inter Parfums, Inc.', 'Package Goods/Cosmetics', 'Lorette', '2024-01-30', '15:38:04','Farandula', 'Italia');
 
 INSERT INTO respuesta (id_tema, respuesta, autor, fecha, pais, me_gusta)
