@@ -75,7 +75,7 @@
       <a href="temas.php?cual=<?php print $ver[0]?>"><?php print $ver[1]?></a>
     </td>
     <td><?php print $ver[2]?></td>
-    <td><?php print $ver[3]?></td>
+    <td><?php print $ver[3]?></td> 
     <td>
 
       <?php
@@ -84,6 +84,8 @@
         print mysqli_num_rows($filas);
       ?>
     </td>
+    <td><?php print $ver[4]?></td>
+    <td><?php print $ver[5]?></td>  
     </tr>
     <?php } ?>
   </table>
